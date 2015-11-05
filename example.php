@@ -1,9 +1,12 @@
-# class-apc-php
-Admin Page Creator Class for WordPress
+<?php
+/*
+Plugin Name: WordPress Theme options
+Version: 0.1
+Description: WordPress Theme options
+Author: Arthur Araújo
+Author URI: http://araujo.cc
+*/
 
-# Usage
-
-```php
 require_once 'class-apc.php';
 
 if( is_admin() ):
@@ -20,7 +23,3 @@ if( is_admin() ):
 	APC::add_option_page('Custom Theme Options', 'custom_theme_options', 'edit_theme_options');
 
 endif;
-
-```
-
-"Simplicity is the ultimate sophistication" - Leonardo da Vinci
